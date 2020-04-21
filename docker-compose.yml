@@ -1,0 +1,26 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./docker/go
+    volumes:
+      - "./docker/go:/go"
+    container_name: golang
+    ports:
+      - "8080:8080"
+    tty: true
+    depends_on:
+      - db
+  db:
+    build:
+        context: ./docker/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: test_db
+        MYSQL_USER: docker
+        MYSQL_PASSWORD: docker
+    container_name: mysql
+    ports:
+        - "3306:3306"
+    tty: true
+    
