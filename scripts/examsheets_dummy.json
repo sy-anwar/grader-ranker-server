@@ -1,0 +1,472 @@
+{
+    "data": [
+        {
+            "id_exam": 123,
+            "id_user": 1,
+            "answersheets": [
+                {
+                    "id_session": 11,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 12,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 13,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 14,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 15,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 16,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 17,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 18,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 19,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 20,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                }
+            ]
+        },
+        {
+            "id_exam": 123,
+            "id_user": 2,
+            "answersheets": [
+                {
+                    "id_session": 11,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 12,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 13,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 14,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 15,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 16,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 17,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 18,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 19,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 20,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                }
+            ]
+        },
+        {
+            "id_exam": 123,
+            "id_user": 1,
+            "answersheets": [
+                {
+                    "id_session": 11,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 12,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 13,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 14,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 15,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 16,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 17,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 18,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 19,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                },
+                {
+                    "id_session": 20,
+                    "answers": {
+                        "1": true,
+                        "2": true,
+                        "3": false,
+                        "4": true,
+                        "5": false,
+                        "6": true,
+                        "7": true,
+                        "8": false,
+                        "9": true,
+                        "10": false
+                    }
+                }
+            ]
+        }
+    ]
+}
