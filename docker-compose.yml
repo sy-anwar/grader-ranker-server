@@ -10,6 +10,7 @@ services:
     tty: true
     depends_on:
       - db
+    network_mode: "host"
   db:
     build:
         context: ./docker/mysql
@@ -22,4 +23,4 @@ services:
     ports:
         - "3306:3306"
     tty: true
-    
+    network_mode: "host"
