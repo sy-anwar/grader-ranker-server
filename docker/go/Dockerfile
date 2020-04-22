@@ -1,6 +1,9 @@
 FROM golang:latest
 
-RUN apt-get update
-RUN go get -u "github.com/go-sql-driver/mysql"
-RUN go get -u "github.com/gorilla/mux"
-RUN go get -u "github.com/jinzhu/gorm"
+WORKDIR /go/src/github.com/sy-anwar/grader-ranker-server
+
+COPY . /go/src/github.com/sy-anwar/grader-ranker-server
+
+RUN go mod download
+
+EXPOSE 8080
