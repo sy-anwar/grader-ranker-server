@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	// "github.com/sy-anwar/grader-ranker-server/pkg/config"
 	"github.com/sy-anwar/grader-ranker-server/pkg/models"
 	"github.com/sy-anwar/grader-ranker-server/pkg/routes"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
@@ -23,12 +24,14 @@ func logRequest(handler http.Handler) http.Handler {
 }
 
 func main() {
+	// config.ConnectDB()
 	r := mux.NewRouter()
 	routes.RegisterEventRoutes(r)
 	routeLogging := logRequest(r)
 	http.Handle("/", routeLogging)
+	log.Println("Server started on localhost:8080")
 	err := http.ListenAndServe("localhost:8080", nil)
 	if err != nil {
 		log.Fatal(err)
-	}
+	} 
 }

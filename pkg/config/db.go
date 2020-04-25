@@ -1,17 +1,29 @@
 package config
 
 import (
+	"os"
+	"fmt"
 	"log"
 	"github.com/jinzhu/gorm"
+	"github.com/joho/godotenv"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 var db *gorm.DB
 
 func ConnectDB() {
-	dbUri := "root:@tcp(127.0.0.1:3306)/test_db?charset=utf8&parseTime=True&loc=Local"
+	err := godotenv.Load()
+	if err != nil {
+		log.Println(err)
+	}
+	username := os.Getenv("db_user")
+	password := os.Getenv("db_pass")
+	dbName   := os.Getenv("db_name")
+	dbHost   := os.Getenv("db_host")
+	dbPort   := os.Getenv("db_port")
+	
+	dbUri := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local", username, password, dbHost, dbPort, dbName)
 	database, err := gorm.Open("mysql", dbUri)
-	defer database.Close()
 	if err != nil {
 		log.Println(err)
 	} else {
