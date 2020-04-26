@@ -98,7 +98,7 @@ func CheckNilFieldsExamsheet(examsheet models.Examsheet) bool {
 	return false
 }
 
-func CheckNilFieldsAnswersheets(answersheets models.Answersheets) bool {
+func CheckNilFieldsAnswersheets(answersheets models.Answersheet) bool {
 	if answersheets.IDSession == nil {
 		return true
 	}
