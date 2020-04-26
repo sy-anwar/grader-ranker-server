@@ -8,6 +8,10 @@ import (
 
 var db *gorm.DB
 
+type Events struct {
+	Data []Event 	`json:"data"`
+}
+
 type Event struct {
 	IDEvent		uint		`gorm:"primary_key" json:"id_event"`
 	IDExam      uint      	`json:"id_exam"`
