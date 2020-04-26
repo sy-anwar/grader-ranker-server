@@ -13,9 +13,9 @@ type Events struct {
 }
 
 type Event struct {
-	IDEvent		uint		`gorm:"primary_key" json:"id_event"`
-	IDExam      uint      	`json:"id_exam"`
-	IDUser      uint       	`json:"id_user"`
+	IDEvent		uint32		`gorm:"primary_key" json:"id_event"`
+	IDExam      uint32      `json:"id_exam"`
+	IDUser      uint32      `json:"id_user"`
 	EventScore	int			`json:"event_score"`
 	Sessions 	[]Session	`gorm:"foreignkey:EventID" json:"sessions"`
 }
@@ -56,6 +56,14 @@ func CreateEvents(examsheet Examsheets) []Event {
 		event.CreateEvent()
 		events = append(events, event)
 	}
+	return events
+}
+
+func GetEventsByIDExam(idExam uint32) []Event {
+	var events []Event
+	db.Where(Event{
+		IDExam : idExam,
+	}).Order("event_score desc").Find(&events)
 	return events
 }
 

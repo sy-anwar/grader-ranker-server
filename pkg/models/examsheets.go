@@ -5,13 +5,13 @@ type Examsheets struct {
 }
 
 type Examsheet struct {
-	IDExam       *uint     		`json:"id_exam"`
-	IDUser       *uint       	`json:"id_user"`
-	Answersheets []Answersheet `json:"answersheets"`
+	IDExam       *uint32     	`json:"id_exam"`
+	IDUser       *uint32       	`json:"id_user"`
+	Answersheets []Answersheet 	`json:"answersheets"`
 }
 
 type Answersheet struct {
-	IDSession *uint     `json:"id_session"`
+	IDSession *uint32   `json:"id_session"`
 	Answers   Answers 	`json:"answers"`
 }
 
