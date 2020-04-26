@@ -27,6 +27,7 @@ func main() {
 	// config.ConnectDB()
 	r := mux.NewRouter()
 	routes.RegisterEventRoutes(r)
+	routes.RegisterRankRoutes(r)
 	routeLogging := logRequest(r)
 	http.Handle("/", routeLogging)
 	log.Println("Server started on localhost:8080")

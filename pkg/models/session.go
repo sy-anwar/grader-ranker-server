@@ -7,8 +7,8 @@ import (
 
 
 type Session struct {
-	EventID			uint	`gorm:"primary_key;auto_increment:false" json:"id_event"`
-	IDSession 		uint	`gorm:"primary_key;auto_increment:false" json:"id_session"`
+	EventID			uint32	`gorm:"primary_key;auto_increment:false" json:"id_event"`
+	IDSession 		uint32	`gorm:"primary_key;auto_increment:false" json:"id_session"`
 	SessionScore	int		`json:"session_score"`
 }
 
